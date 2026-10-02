@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Events Roundup</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-text">
+        <h1>Local Events Roundup</h1>
+        <p class="tagline">Hand-picked family outings &amp; date nights around Jersey City, NJ &amp; NYC</p>
+      </div>
+      <p class="last-updated" id="last-updated">Loading&hellip;</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="Filters">
+      <div class="filter-row" id="toggle-filters">
+        <button type="button" class="pill" data-filter="freebie" aria-pressed="false">&#127873; Freebie hunt</button>
+        <button type="button" class="pill" data-filter="free" aria-pressed="false">Free entry</button>
+        <button type="button" class="pill active" data-filter="hideArts" aria-pressed="true">Hide artsy</button>
+        <button type="button" class="pill" data-filter="dateNight" aria-pressed="false">&#127769; Date night</button>
+        <button type="button" class="pill" data-filter="toddler" aria-pressed="false">&#129490; Toddler picks</button>
+      </div>
+      <div class="filter-row">
+        <div class="segmented" id="region-filter" role="group" aria-label="Region">
+          <button type="button" class="seg active" data-region="all" aria-pressed="true">All areas</button>
+          <button type="button" class="seg" data-region="local_nj" aria-pressed="false">Jersey City &amp; nearby</button>
+          <button type="button" class="seg" data-region="destination_nj" aria-pressed="false">NJ day trips</button>
+          <button type="button" class="seg" data-region="nyc" aria-pressed="false">NYC</button>
+        </div>
+      </div>
+      <div class="filter-row">
+        <input type="search" id="search" placeholder="Search events, venues, places&hellip;" aria-label="Search events" autocomplete="off">
+      </div>
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+    </section>
+
+    <div id="event-groups"></div>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <p class="empty-emoji">&#128269;</p>
+      <h2>Nothing matches those filters</h2>
+      <p>Try loosening a filter or two &mdash; new events land every Thursday.</p>
+      <button type="button" id="clear-filters" class="pill">Clear all filters</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Curated weekly &middot; Verify details with the organizer before heading out</p>
+  </footer>
+</body>
+</html>
