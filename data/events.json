@@ -1159,6 +1159,35 @@
       "toddler_fit": "high",
       "venue": "American Museum of Natural History, 200 Central Park West",
       "verification": "verified"
+    },
+    {
+      "id": 155,
+      "title": "42nd Korean Parade & Festival",
+      "summary": "NYC Koreatown all-day celebration: parade down 6th Avenue (38th to 27th St, 12-2 PM), then a street festival on 32nd St (2-6 PM) with traditional music and dance, live performances, Korean food vendors, the Hanbok Model Contest finals, and family-friendly activities.",
+      "category": "Parade & Festival",
+      "city": "New York",
+      "venue": "6th Avenue (38th-27th St) & 32nd St, Koreatown",
+      "region": "nyc",
+      "start_at": "2026-10-03T12:00:00-04:00",
+      "end_at": "2026-10-03T18:00:00-04:00",
+      "date_key": "2026-10-03",
+      "timezone": "America/New_York",
+      "cost_label": "Free",
+      "is_free": true,
+      "is_freebie": false,
+      "freebie_what": null,
+      "freebie_catch": null,
+      "is_arts": false,
+      "is_date_night": false,
+      "is_featured": true,
+      "audience": "both",
+      "toddler_fit": "moderate",
+      "source_name": "KAAGNY (Eventbrite)",
+      "source_url": "https://www.eventbrite.com/e/42nd-korean-parade-festival-tickets-2001906660712",
+      "legitimacy_note": "Organized by the Korean American Association of Greater New York (KAAGNY); 42nd annual edition; official Eventbrite organizer listing confirms Oct 3, 2026, parade 12-2 PM and festival in Koreatown; free and all ages per organizer FAQ.",
+      "caveat": "Expect big crowds and street closures around 6th Ave and 32nd St; rain or shine per organizer.",
+      "verification": "verified",
+      "editorial_rank": 1
     }
   ],
   "refresh": {
@@ -1170,5 +1199,5 @@
     "window_end": "2026-10-21",
     "window_start": "2026-10-01"
   },
-  "generated_at": "2026-10-02T14:20:00Z"
+  "generated_at": "2026-10-03T02:53:35Z"
 }
